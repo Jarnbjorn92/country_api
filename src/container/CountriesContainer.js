@@ -25,7 +25,6 @@ const CountriesContainer = () => {
 
     const onCountryClicked = function(country){
         const updatedFavouriteCountries = [...favouriteCountries, country];
-        console.log("hi")
         setFavouriteCountries(updatedFavouriteCountries);
     }
 
